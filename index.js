@@ -13,32 +13,6 @@ app.get("/", (req, res) => {
 const port = 3000;
 
 
-// Ping endpoint for self-ping
-app.get("/ping", (req, res) => {
-  res.status(200).send("Pong");
-});
-
-
-// Keep-alive ping function
-const keepServerAlive = () => {
-  const serverUrl = "https://your-hosted-server-url.com/ping"; // Replace with your deployed URL
-  setInterval(async () => {
-    try {
-      await axios.get(serverUrl);
-      console.log("Ping successful!");
-    } catch (err) {
-      console.error("Ping failed:", err.message);
-    }
-  }, 14 * 60 * 1000); // Ping every 14 minutes to avoid 15-minute shutdown
-};
-
-
-
-app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}`);
-   keepServerAlive(); 
-});
-
 // Telegram bot token
 const botToken = "7235896479:AAHeHufxmxVfmHmCAbShhjQ0kJzOaQRZ2us"; // Replace with your actual token
 const bot = new TelegramBot(botToken, { polling: true });
