@@ -18,7 +18,7 @@ app.listen(PORT, () => {
 
 
 // Telegram bot token
-const botToken = "7235896479:AAHeHufxmxVfmHmCAbShhjQ0kJzOaQRZ2us"; // Replace with your actual token
+const botToken = "7210329458:AAFqqepLFMKyQYHiYrgXdsYcagf-I4ihpw8"; // Replace with your actual token
 const bot = new TelegramBot(botToken, { polling: true });
 
 // /start command
@@ -39,7 +39,7 @@ I Am *YummyURL*, Bulk Link Converter\\. I Can Convert Links Directly From Your y
    \\(See example below to understand more\\)
 
 **Example**:  
-\`/set_api cbd63775f798fe0e58c67a56e6ce8b70c495cda4\`
+\`/set_api f4e1787c1041fd077f95c6a721901f51dfebf0f6\`
 
 💁‍♀️ Hit 👉 **/help** To Get Help\\.  
 ➕ Hit 👉 **/footer** To Get Help About Adding Your Custom Footer To Bot\\.  
