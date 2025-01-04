@@ -18,7 +18,7 @@ app.listen(PORT, () => {
 
 
 // Telegram bot token
-const botToken = "7210329458:AAFqqepLFMKyQYHiYrgXdsYcagf-I4ihpw8"; // Replace with your actual token
+const botToken = "7986042795:AAFQfipjJsLtW-65BchmCUzTXJHoaVxcBPU"; // Replace with your actual token
 const bot = new TelegramBot(botToken, { polling: true });
 
 // /start command
