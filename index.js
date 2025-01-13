@@ -43,7 +43,7 @@ I Am *YummyURL*, Link Converter\\. I Can Convert Links Directly From Your yummyu
 
 💁‍♀️ Hit 👉 **/help** To Get Help\\. 
 
-➕ Hit 👉 **/footer** To Get Help About Adding Your Custom Footer To Bot\\. <br>
+➕ Hit 👉 **/footer** To Get Help About Adding Your Custom Footer To Bot\\.
 
 ➕ Hit 👉 **/header** To Get Help About Adding Your Custom Header To Bot\\. 
 
