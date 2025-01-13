@@ -29,17 +29,17 @@ bot.onText(/\/start/, (msg) => {
   const welcomeMessage = `
 Hello, ${username} 👋
 
-I Am *YummyURL*, Link Converter\\. I Can Convert Links Directly From Your yummyurl\\.com Account\\.
+I Am *YummyURL*, Bulk Link Converter\\. I Can Convert Links Directly From Your yummyurl\\.com Account\\.
 
-1\\. Go To 👉 [https://yummyurl\\.com/member/tools/api](https://yummyurl.com/member/tools/api\\)
+🚀 **To Get Started**:
+1\\. Go To 👉 [https://yummyurl\\.com/member/tools/api](https://yummyurl.com/member/tools/api)
+2\\. Then Copy Your API Key\\.
 
-2\\. Then Copy API Key\\.
-
-3\\. Then Type **/api**, give a single space, and paste your API Key\\.  
+3\\. Then Type **/set\\_api**, give a single space, and paste your API Key\\.  
    \\(See example below to understand more\\)
 
 **Example**:  
-\`/api  a11b67871d303eb6ed6f9115fe98b7d2e0f76ab0\`
+\`/set_api a11b67871d303eb6ed6f9115fe98b7d2e0f76ab0\`
 
 💁‍♀️ Hit 👉 **/help** To Get Help\\.  
 ➕ Hit 👉 **/footer** To Get Help About Adding Your Custom Footer To Bot\\.  
@@ -124,12 +124,12 @@ bot.onText(/\/header(.*)/, (msg, match) => {
         // If no text is provided
         bot.sendMessage(
           chatId,
-          `ᴛᴏ ꜱᴇᴛ ᴛʜᴇ ʜᴇᴀᴅᴇʀ ᴛᴇxᴛ ꜰᴏʀ ᴇᴠᴇʀʏ ᴍᴇꜱꜱᴀɢᴇ ᴄᴀᴘᴛɪᴏɴ ᴏʀ ᴛᴇxᴛ, ᴊᴜꜱᴛ ʀᴇᴘʟʏ ᴡɪᴛʜ ᴛʜᴇ ᴛᴇxᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜꜱᴇ\\. ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ \\n ᴛᴏ ᴀᴅᴅ ᴀ ʟɪɴᴇ ʙʀᴇᴀᴋ\\.\n\n` +
+          `ᴛᴏ ꜱᴇᴛ ᴛʜᴇ ʜᴇᴀᴅᴇʀ ᴛᴇxᴛ ꜰᴏʀ ᴇᴠᴇʀʏ ᴍᴇꜱꜱᴀɢᴇ ᴄᴀᴘᴛɪᴏɴ ᴏʀ ᴛᴇxᴛ, ᴊᴜꜱᴛ ʀᴇᴘʟʏ ᴡɪᴛʜ ᴛʜᴇ ᴛᴇxᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜꜱᴇ\. ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴛᴏ ᴀᴅᴅ ᴀ ʟɪɴᴇ ʙʀᴇᴀᴋ\.\n\n` +
             `🗑 ᴛᴏ ADD ᴛʜᴇ ʜᴇᴀᴅᴇʀ ᴛᴇxᴛ, ᴜꜱᴇ ᴛʜᴇ ꜰᴏʟʟᴏᴡɪɴɢ ᴄᴏᴍᴍᴀɴᴅ:\n/header HEADER_TEXT\n\n` +
             `🗑 ᴛᴏ ʀᴇᴍᴏᴠᴇ ᴛʜᴇ ʜᴇᴀᴅᴇʀ ᴛᴇxᴛ, ᴜꜱᴇ ᴛʜᴇ ꜰᴏʟʟᴏᴡɪɴɢ ᴄᴏᴍᴍᴀɴᴅ:\n/header ʀᴇᴍᴏᴠᴇ\n\n` +
             `⚠️ HEADER Status Must be Enabled for more click \me \n\n` +
 
-            `ᴛʜɪꜱ ɪꜱ ᴀ ʜᴇʟᴘꜰᴜʟ ᴡᴀʏ ᴛᴏ ᴀᴅᴅ ᴀ ᴄᴏɴꜱɪꜱᴛᴇɴᴛ ʜᴇᴀᴅᴇʀ ᴛᴏ ᴀʟʟ ᴏꜰ ʏᴏᴜʀ ᴍᴇꜱꜱᴀɢᴇꜱ\\. ᴇɴᴊᴏʏ🎉\n\n` +
+            `ᴛʜɪꜱ ɪꜱ ᴀ ʜᴇʟᴘꜰᴜʟ ᴡᴀʏ ᴛᴏ ᴀᴅᴅ ᴀ ᴄᴏɴꜱɪꜱᴛᴇɴᴛ ʜᴇᴀᴅᴇʀ ᴛᴏ ᴀʟʟ ᴏꜰ ʏᴏᴜʀ ᴍᴇꜱꜱᴀɢᴇꜱ. ᴇɴᴊᴏʏ🎉\n\n` +
             `📜 CURRENT HEADER: ${currentHeader || "None"}`
         );
       } else if (headerText.toLowerCase() === "remove") {
@@ -169,11 +169,11 @@ bot.onText(/\/footer(.*)/, (msg, match) => {
         // If no text is provided
         bot.sendMessage(
           chatId,
-          `ᴛᴏ ꜱᴇᴛ ᴛʜᴇ ꜰᴏᴏᴛᴇʀ ᴛᴇxᴛ ꜰᴏʀ ᴇᴠᴇʀʏ ᴍᴇꜱꜱᴀɢᴇ ᴄᴀᴘᴛɪᴏɴ ᴏʀ ᴛᴇxᴛ, ᴊᴜꜱᴛ ʀᴇᴘʟʏ ᴡɪᴛʜ ᴛʜᴇ ᴛᴇxᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜꜱᴇ\\. ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ \\n ᴛᴏ ᴀᴅᴅ ᴀ ʟɪɴᴇ ʙʀᴇᴀᴋ\\.\n\n` +
+          `ᴛᴏ ꜱᴇᴛ ᴛʜᴇ ꜰᴏᴏᴛᴇʀ ᴛᴇxᴛ ꜰᴏʀ ᴇᴠᴇʀʏ ᴍᴇꜱꜱᴀɢᴇ ᴄᴀᴘᴛɪᴏɴ ᴏʀ ᴛᴇxᴛ, ᴊᴜꜱᴛ ʀᴇᴘʟʏ ᴡɪᴛʜ ᴛʜᴇ ᴛᴇxᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜꜱᴇ. ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴛᴏ ᴀᴅᴅ ᴀ ʟɪɴᴇ ʙʀᴇᴀᴋ\.\n\n` +
             `🗑 ᴛᴏ ADD ᴛʜᴇ ꜰᴏᴏᴛᴇʀ ᴛᴇxᴛ, ᴜꜱᴇ ᴛʜᴇ ꜰᴏʟʟᴏᴡɪɴɢ ᴄᴏᴍᴍᴀɴᴅ:\n/footer FOOTER_TEXT\n\n` +
             `🗑 ᴛᴏ ʀᴇᴍᴏᴠᴇ ᴛʜᴇ ꜰᴏᴏᴛᴇʀ ᴛᴇxᴛ, ᴜꜱᴇ ᴛʜᴇ ꜰᴏʟʟᴏᴡɪɴɢ ᴄᴏᴍᴍᴀɴᴅ:\n/footer ʀᴇᴍᴏᴠᴇ\n\n` +
             `⚠️ FOOTER Status Must be Enabled for more click \me \n\n` +
-            `ᴛʜɪꜱ ɪꜱ ᴀ ʜᴇʟᴘꜰᴜʟ ᴡᴀʏ ᴛᴏ ᴀᴅᴅ ᴀ ᴄᴏɴꜱɪꜱᴛᴇɴᴛ ꜰᴏᴏᴛᴇʀ ᴛᴏ ᴀʟʟ ᴏꜰ ʏᴏᴜʀ ᴍᴇꜱꜱᴀɢᴇꜱ\\. ᴇɴᴊᴏʏ🎉\n\n` +
+            `ᴛʜɪꜱ ɪꜱ ᴀ ʜᴇʟᴘꜰᴜʟ ᴡᴀʏ ᴛᴏ ᴀᴅᴅ ᴀ ᴄᴏɴꜱɪꜱᴛᴇɴᴛ ꜰᴏᴏᴛᴇʀ ᴛᴏ ᴀʟʟ ᴏꜰ ʏᴏᴜʀ ᴍᴇꜱꜱᴀɢᴇꜱ. ᴇɴᴊᴏʏ🎉\n\n` +
             `📜 CURRENT FOOTER: ${currentFooter || "None"}`
         );
       } else if (footerText.toLowerCase() === "remove") {
@@ -214,7 +214,7 @@ bot.onText(/\/footer(.*)/, (msg, match) => {
           chatId,
           `ᴛᴏ ꜱᴇᴛ ᴛʜᴇ ᴜꜱᴇʀɴᴀᴍᴇ ᴛʜᴀᴛ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ʀᴇᴘʟᴀᴄᴇᴅ ᴡɪᴛʜ ᴏᴛʜᴇʀ ᴜꜱᴇʀɴᴀᴍᴇꜱ ɪɴ ᴛʜᴇ ᴘᴏꜱᴛ, ᴜꜱᴇ ᴛʜᴇ ꜰᴏʟʟᴏᴡɪɴɢ ᴄᴏᴍᴍᴀɴᴅ:\n\n` +
             `/username ʏᴏᴜʀ_ᴜꜱᴇʀɴᴀᴍᴇ\n\n` +
-            `**(ɴᴏᴛᴇ: ᴅᴏ ɴᴏᴛ ɪɴᴄʟᴜᴅᴇ ᴛʜᴇ @ ꜱʏᴍʙᴏʟ ɪɴ ʏᴏᴜʀ ᴜꜱᴇʀɴᴀᴍᴇ\\.)**\n\n` +
+            `(ɴᴏᴛᴇ: ᴅᴏ ɴᴏᴛ ɪɴᴄʟᴜᴅᴇ ᴛʜᴇ @ ꜱʏᴍʙᴏʟ ɪɴ ʏᴏᴜʀ \ᴜꜱᴇʀɴᴀᴍᴇ.)\n\n` +
             `ᴛᴏ ʀᴇᴍᴏᴠᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴜꜱᴇʀɴᴀᴍᴇ, ᴜꜱᴇ ᴛʜᴇ ꜰᴏʟʟᴏᴡɪɴɢ ᴄᴏᴍᴍᴀɴᴅ:\n\n` +
             `/username ʀᴇᴍᴏᴠᴇ\n\n` +
             `📜 CURRENT USERNAME: ${currentUsername || "None"}`
