@@ -38,7 +38,7 @@ I Am *YummyURL*, Link Converter\\. I Can Convert Links Directly From Your yummyu
    \\(See example below to understand more\\)
 
 **Example**:  
-\`/set_api f4e1787c1041fd077f95c6a721901f51dfebf0f6\`
+\`/set_api a11b67871d303eb6ed6f9115fe98b7d2e0f76ab0\`
 
 💁‍♀️ Hit 👉 **/help** To Get Help\\.  
 ➕ Hit 👉 **/footer** To Get Help About Adding Your Custom Footer To Bot\\.  
@@ -102,7 +102,7 @@ If you have any problem, click the button below to contact us\\.
           [
             {
               text: "Contact Us",
-              url: "https://t.me/wrrohit02",
+              url: "https://t.me/yummyurl_admin",
             },
           ],
         ],
