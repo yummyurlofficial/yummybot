@@ -32,7 +32,7 @@ Hello, ${username} 👋
 I Am *YummyURL*, Link Converter\\. I Can Convert Links Directly From Your yummyurl\\.com Account\\.
 
 🚀 **To Get Started**:
-1\\. Go To 👉 [https://yummyurl\\.com/member/tools/api](https://yummyurl.com/member/tools/api) <br>
+1\\. Go To 👉 [https://yummyurl\\.com/member/tools/api](https://yummyurl.com/member/tools/api)
 2\\. Then Copy Your API Key\\.
 
 3\\. Then Type **/set\\_api**, give a single space, and paste your API Key\\.  
