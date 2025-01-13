@@ -31,14 +31,15 @@ Hello, ${username} 👋
 
 I Am *YummyURL*, Link Converter\\. I Can Convert Links Directly From Your yummyurl\\.com Account\\.
 
-1\\. Go To 👉 [https://yummyurl\\.com/member/tools/api](https://yummyurl.com/member/tools/api)
+1\\. Go To 👉 [https://yummyurl\\.com/member/tools/api](https://yummyurl.com/member/tools/api\\)
+
 2\\. Then Copy Your API Key\\.
 
-3\\. Then Type **/set\\_api**, give a single space, and paste your API Key\\.  
+3\\. Then Type **/api**, give a single space, and paste your API Key\\.  
    \\(See example below to understand more\\)
 
 **Example**:  
-\`/set_api a11b67871d303eb6ed6f9115fe98b7d2e0f76ab0\`
+\`/api a11b67871d303eb6ed6f9115fe98b7d2e0f76ab0\`
 
 💁‍♀️ Hit 👉 **/help** To Get Help\\.  
 ➕ Hit 👉 **/footer** To Get Help About Adding Your Custom Footer To Bot\\.  
