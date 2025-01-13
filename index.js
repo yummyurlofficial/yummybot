@@ -29,23 +29,24 @@ bot.onText(/\/start/, (msg) => {
   const welcomeMessage = `
 Hello, ${username} 👋
 
-I Am *YummyURL*, Link Converter\\. I Can Convert Links Directly From Your yummyurl\\.com Account\\.
+I Am *YummyURL*, Bulk Link Converter\\. I Can Convert Links Directly From Your yummyurl\\.com Account\\.
 
-1\\. Go To 👉 [https://yummyurl\\.com/member/tools/api](https://yummyurl.com/member/tools/api\\)
+🚀 **To Get Started**:
+1\\. Go To 👉 [https://yummyurl\\.com/member/tools/api](https://yummyurl.com/member/tools/api)
 
 2\\. Then Copy Your API Key\\.
 
-3\\. Then Type **/api**, give a single space, and paste your API Key\\.  
- \\(See example below to understand more\\)
+3\\. Then Type **/set\\_api**, give a single space, and paste your API Key\\.  
+   \\(See example below to understand more\\)
 
 **Example**:  
-\`/api a11b67871d303eb6ed6f9115fe98b7d2e0f76ab0\`
+\`/set_api f4e1787c1041fd077f95c6a721901f51dfebf0f6\`
 
-💁‍♀️ Hit 👉 **/help** To Get Help\\. 
+💁‍♀️ Hit 👉 **/help** To Get Help\\.  
 
-➕ Hit 👉 **/footer** To Get Help About Adding Your Custom Footer To Bot\\.
+➕ Hit 👉 **/footer** To Get Help About Adding Your Custom Footer To Bot\\.  
 
-➕ Hit 👉 **/header** To Get Help About Adding Your Custom Header To Bot\\. 
+➕ Hit 👉 **/header** To Get Help About Adding Your Custom Header To Bot\\.
 
 Happy linking🎉
 `;
@@ -382,7 +383,9 @@ bot.onText(/\/footer(.*)/, (msg, match) => {
           bot.sendMessage(
             chatId,
             `ᴛᴏ ᴀᴅᴅ ᴏʀ ᴜᴘᴅᴀᴛᴇ ʏᴏᴜʀ ꜱʜᴏʀᴛɴᴇʀ ᴡᴇʙꜱɪᴛᴇ ᴀᴘɪ.\n\n` +
-            `Ex: /api a11b67871d303d2e0f76ab0:\n` + <br>
+            
+            `Ex: /api a11b67871d303d2e0f76ab0:\n` + 
+            
             `ɢᴇᴛ ᴀᴘɪ ꜰʀᴏᴍ Yummyurl.com ᴄᴜʀʀᴇɴᴛ yummyurl.com ᴀᴘɪ: None`
           );
         }
