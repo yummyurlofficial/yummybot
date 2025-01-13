@@ -29,7 +29,7 @@ bot.onText(/\/start/, (msg) => {
   const welcomeMessage = `
 Hello, ${username} 👋
 
-I Am *YummyURL*, Bulk Link Converter\\. I Can Convert Links Directly From Your yummyurl\\.com Account\\.
+I Am *YummyURL*, Link Converter\\. I Can Convert Links Directly From Your yummyurl\\.com Account\\.
 
 🚀 **To Get Started**:
 1\\. Go To 👉 [https://yummyurl\\.com/member/tools/api](https://yummyurl.com/member/tools/api)
