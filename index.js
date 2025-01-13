@@ -130,7 +130,7 @@ bot.onText(/\/header(.*)/, (msg, match) => {
             `⚠️ HEADER Status Must be Enabled for more click \me \n\n` +
 
             `ᴛʜɪꜱ ɪꜱ ᴀ ʜᴇʟᴘꜰᴜʟ ᴡᴀʏ ᴛᴏ ᴀᴅᴅ ᴀ ᴄᴏɴꜱɪꜱᴛᴇɴᴛ ʜᴇᴀᴅᴇʀ ᴛᴏ ᴀʟʟ ᴏꜰ ʏᴏᴜʀ ᴍᴇꜱꜱᴀɢᴇꜱ\\. ᴇɴᴊᴏʏ🎉\n\n` +
-            `📜 **CURRENT HEADER:** ${currentHeader || "None"}`
+            `📜 CURRENT HEADER: ${currentHeader || "None"}`
         );
       } else if (headerText.toLowerCase() === "remove") {
         // Remove header
@@ -174,7 +174,7 @@ bot.onText(/\/footer(.*)/, (msg, match) => {
             `🗑 ᴛᴏ ʀᴇᴍᴏᴠᴇ ᴛʜᴇ ꜰᴏᴏᴛᴇʀ ᴛᴇxᴛ, ᴜꜱᴇ ᴛʜᴇ ꜰᴏʟʟᴏᴡɪɴɢ ᴄᴏᴍᴍᴀɴᴅ:\n/footer ʀᴇᴍᴏᴠᴇ\n\n` +
             `⚠️ FOOTER Status Must be Enabled for more click \me \n\n` +
             `ᴛʜɪꜱ ɪꜱ ᴀ ʜᴇʟᴘꜰᴜʟ ᴡᴀʏ ᴛᴏ ᴀᴅᴅ ᴀ ᴄᴏɴꜱɪꜱᴛᴇɴᴛ ꜰᴏᴏᴛᴇʀ ᴛᴏ ᴀʟʟ ᴏꜰ ʏᴏᴜʀ ᴍᴇꜱꜱᴀɢᴇꜱ\\. ᴇɴᴊᴏʏ🎉\n\n` +
-            `📜 **CURRENT FOOTER:** ${currentFooter || "None"}`
+            `📜 CURRENT FOOTER: ${currentFooter || "None"}`
         );
       } else if (footerText.toLowerCase() === "remove") {
         // Remove footer
@@ -217,7 +217,7 @@ bot.onText(/\/footer(.*)/, (msg, match) => {
             `**(ɴᴏᴛᴇ: ᴅᴏ ɴᴏᴛ ɪɴᴄʟᴜᴅᴇ ᴛʜᴇ @ ꜱʏᴍʙᴏʟ ɪɴ ʏᴏᴜʀ ᴜꜱᴇʀɴᴀᴍᴇ\\.)**\n\n` +
             `ᴛᴏ ʀᴇᴍᴏᴠᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴜꜱᴇʀɴᴀᴍᴇ, ᴜꜱᴇ ᴛʜᴇ ꜰᴏʟʟᴏᴡɪɴɢ ᴄᴏᴍᴍᴀɴᴅ:\n\n` +
             `/username ʀᴇᴍᴏᴠᴇ\n\n` +
-            `📜 **CURRENT USERNAME:** ${currentUsername || "None"}`
+            `📜 CURRENT USERNAME: ${currentUsername || "None"}`
         );
       } else if (usernameInput.toLowerCase() === "remove") {
         // Remove username
@@ -374,12 +374,12 @@ bot.onText(/\/footer(.*)/, (msg, match) => {
               `/api API_KEY\n\n` +
               `🗑 ᴛᴏ ʀᴇᴍᴏᴠᴇ ᴛʜᴇ API, ᴜꜱᴇ:\n` +
               `/api remove\n\n` +
-              `🌟 **CURRENT API KEY:** 🗝️ \`${currentApi}\``
+              `🌟 CURRENT API KEY: 🗝️ \`${currentApi}\``
           );
         } else {
           bot.sendMessage(
             chatId,
-            `⚠️ **API key is not set.**\nSet it now at [yummyurl.com](https://yummyurl.com).\n\n` +
+            `⚠️ API key is not set.\nSet it now at [yummyurl.com](https://yummyurl.com).\n\n` +
               `ᴛᴏ ꜱᴇᴛ ᴛʜᴇ API, ᴜꜱᴇ ᴛʜᴇ ꜰᴏʟʟᴏᴡɪɴɢ ꜰᴏʀᴍᴀᴛ:\n` +
               `/api API_KEY`
           );
