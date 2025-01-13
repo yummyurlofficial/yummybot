@@ -41,11 +41,11 @@ I Am *YummyURL*, Link Converter\\. I Can Convert Links Directly From Your yummyu
 **Example**:  
 \`/api a11b67871d303eb6ed6f9115fe98b7d2e0f76ab0\`
 
-💁‍♀️ Hit 👉 **/help** To Get Help\\.  <br>
+💁‍♀️ Hit 👉 **/help** To Get Help\\. 
 
-➕ Hit 👉 **/footer** To Get Help About Adding Your Custom Footer To Bot\\. <br> 
+➕ Hit 👉 **/footer** To Get Help About Adding Your Custom Footer To Bot\\. <br>
 
-➕ Hit 👉 **/header** To Get Help About Adding Your Custom Header To Bot\\.<br>
+➕ Hit 👉 **/header** To Get Help About Adding Your Custom Header To Bot\\. 
 
 Happy linking🎉
 `;
