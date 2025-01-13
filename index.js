@@ -29,21 +29,23 @@ bot.onText(/\/start/, (msg) => {
   const welcomeMessage = `
 Hello, ${username} 👋
 
-I Am *YummyURL*, Bulk Link Converter\\. I Can Convert Links Directly From Your yummyurl\\.com Account\\.
+I Am *YummyURL*, Link Converter\\. I Can Convert Links Directly From Your yummyurl\\.com Account\\.
 
-🚀 **To Get Started**:
-1\\. Go To 👉 [https://yummyurl\\.com/member/tools/api](https://yummyurl.com/member/tools/api)
+1\\. Go To 👉 [https://yummyurl\\.com/member/tools/api](https://yummyurl.com/member/tools/api)<br>
+
 2\\. Then Copy Your API Key\\.
 
-3\\. Then Type **/set\\_api**, give a single space, and paste your API Key\\.  
-   \\(See example below to understand more\\)
+3\\. Then Type **/api**, give a single space, and paste your API Key\\.  
+ \\(See example below to understand more\\)
 
 **Example**:  
-\`/set_api a11b67871d303eb6ed6f9115fe98b7d2e0f76ab0\`
+\`/api a11b67871d303eb6ed6f9115fe98b7d2e0f76ab0\`
 
-💁‍♀️ Hit 👉 **/help** To Get Help\\.  
-➕ Hit 👉 **/footer** To Get Help About Adding Your Custom Footer To Bot\\.  
-➕ Hit 👉 **/header** To Get Help About Adding Your Custom Header To Bot\\.
+💁‍♀️ Hit 👉 **/help** To Get Help\\.  <br>
+
+➕ Hit 👉 **/footer** To Get Help About Adding Your Custom Footer To Bot\\. <br> 
+
+➕ Hit 👉 **/header** To Get Help About Adding Your Custom Header To Bot\\.<br>
 
 Happy linking🎉
 `;
@@ -70,7 +72,7 @@ bot.onText(/\/help/, (msg) => {
   const chatId = msg.chat.id;
 
   const helpMessage = `
-Hey My name is *YummyURL Bulk Converter Bot* and I'm a link converter and shortener bot \\.
+Hey My name is *YummyURL Link Converter Bot* and I'm a link converter and shortener bot \\.
 
 *Features:*
 • Hyperlink support 🔗
@@ -91,7 +93,7 @@ Hey My name is *YummyURL Bulk Converter Bot* and I'm a link converter and shorte
 • /username — For username\\.
 • /me — See your settings details\\.
 
-⚠️⚠️Note : IF Header // Footer STATUS is Disabled Then Header Not Show No Matter It Set Or Not
+⚠️Note : IF /Header /Footer Status is Disabled Then Header Not Show No Matter It Set Or Not
 
 If you have any problem, click the button below to contact us\\.
   `;
@@ -379,9 +381,10 @@ bot.onText(/\/footer(.*)/, (msg, match) => {
         } else {
           bot.sendMessage(
             chatId,
-            `⚠️ API key is not set.\nSet it now at [yummyurl.com](https://yummyurl.com).\n\n` +
-              `ᴛᴏ ꜱᴇᴛ ᴛʜᴇ API, ᴜꜱᴇ ᴛʜᴇ ꜰᴏʟʟᴏᴡɪɴɢ ꜰᴏʀᴍᴀᴛ:\n` +
-              `/api API_KEY`
+            `ᴛᴏ ᴀᴅᴅ ᴏʀ ᴜᴘᴅᴀᴛᴇ ʏᴏᴜʀ ꜱʜᴏʀᴛɴᴇʀ ᴡᴇʙꜱɪᴛᴇ ᴀᴘɪ.\n\n` +
+              `Ex: /api a11b67871d303eb6ed6f9115fe98b7d2e0f76ab0:\n` +
+            
+              `ɢᴇᴛ ᴀᴘɪ ꜰʀᴏᴍ Yummyurl.com ᴄᴜʀʀᴇɴᴛ yummyurl.com ᴀᴘɪ: None`
           );
         }
       } else if (apiText.toLowerCase() === "remove") {
