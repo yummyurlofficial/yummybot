@@ -31,7 +31,7 @@ Hello, ${username} 👋
 
 I Am *YummyURL*, Link Converter\\. I Can Convert Links Directly From Your yummyurl\\.com Account\\.
 
-1\\. Go To 👉 [https://yummyurl\\.com/member/tools/api](https://yummyurl.com/member/tools/api)<br>
+1\\. Go To 👉 [https://yummyurl\\.com/member/tools/api](https://yummyurl.com/member/tools/api\\)
 
 2\\. Then Copy Your API Key\\.
 
@@ -382,9 +382,8 @@ bot.onText(/\/footer(.*)/, (msg, match) => {
           bot.sendMessage(
             chatId,
             `ᴛᴏ ᴀᴅᴅ ᴏʀ ᴜᴘᴅᴀᴛᴇ ʏᴏᴜʀ ꜱʜᴏʀᴛɴᴇʀ ᴡᴇʙꜱɪᴛᴇ ᴀᴘɪ.\n\n` +
-              `Ex: /api a11b67871d303eb6ed6f9115fe98b7d2e0f76ab0:\n` +
-            
-              `ɢᴇᴛ ᴀᴘɪ ꜰʀᴏᴍ Yummyurl.com ᴄᴜʀʀᴇɴᴛ yummyurl.com ᴀᴘɪ: None`
+            `Ex: /api a11b67871d303d2e0f76ab0:\n` + <br>
+            `ɢᴇᴛ ᴀᴘɪ ꜰʀᴏᴍ Yummyurl.com ᴄᴜʀʀᴇɴᴛ yummyurl.com ᴀᴘɪ: None`
           );
         }
       } else if (apiText.toLowerCase() === "remove") {
