@@ -18,7 +18,7 @@ app.listen(PORT, () => {
 
 
 // Telegram bot token
-const botToken = "7986042795:AAFQfipjJsLtW-65BchmCUzTXJHoaVxcBPU"; // Replace with your actual token
+const botToken = "7235896479:AAHeHufxmxVfmHmCAbShhjQ0kJzOaQRZ2us"; // Replace with your actual token
 const bot = new TelegramBot(botToken, { polling: true });
 
 // /start command
@@ -29,9 +29,8 @@ bot.onText(/\/start/, (msg) => {
   const welcomeMessage = `
 Hello, ${username} 👋
 
-I Am *YummyURL*, Bulk Link Converter\\. I Can Convert Links Directly From Your yummyurl\\.com Account\\.
+I Am *YummyURL*, Link Converter\\. I Can Convert Links Directly From Your yummyurl\\.com Account\\.
 
-🚀 **To Get Started**:
 1\\. Go To 👉 [https://yummyurl\\.com/member/tools/api](https://yummyurl.com/member/tools/api)
 2\\. Then Copy Your API Key\\.
 
