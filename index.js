@@ -37,7 +37,7 @@ I Am *YummyURL Link Converter*\\. I Can Convert Links Directly From Your yummyur
 2\\. Then Copy Your API Key\\.
 
 3\\. Then Type **/api**, give a single space, and paste your API Key\\.  
-   \\(See example below to understand more\\)
+\\(See example below to understand more\\)
 
 **Example**: \`/api f4e1781dfebf0f6\`
 
