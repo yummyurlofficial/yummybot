@@ -380,12 +380,12 @@ bot.onText(/\/footer(.*)/, (msg, match) => {
           );
         } else {
           bot.sendMessage(
-            chatId,
-            `ᴛᴏ ᴀᴅᴅ ᴏʀ ᴜᴘᴅᴀᴛᴇ ʏᴏᴜʀ ꜱʜᴏʀᴛɴᴇʀ ᴡᴇʙꜱɪᴛᴇ ᴀᴘɪ.\n\n` 
+            chatId,                                                     
+            `ᴛᴏ ᴀᴅᴅ ᴏʀ ᴜᴘᴅᴀᴛᴇ ʏᴏᴜʀ ꜱʜᴏʀᴛɴᴇʀ ᴡᴇʙꜱɪᴛᴇ ᴀᴘɪ.\n\n` +
             
-            `Ex: /api a11b67871d303d2e0f76ab0:` 
+            `Ex: /api a11b67871d303d2e0f76ab0:\n` +
             
-            `ɢᴇᴛ ᴀᴘɪ ꜰʀᴏᴍ Yummyurl.com <br>
+            `ɢᴇᴛ ᴀᴘɪ ꜰʀᴏᴍ Yummyurl.com 
             
             ᴄᴜʀʀᴇɴᴛ yummyurl.com ᴀᴘɪ: None`
           );
