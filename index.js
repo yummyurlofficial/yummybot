@@ -39,7 +39,7 @@ I Am *YummyURL Link Converter*\\. I Can Convert Links Directly From Your yummyur
 3\\. Then Type **/set\\_api**, give a single space, and paste your API Key\\.  
    \\(See example below to understand more\\)
 
-**Example**: \`/api f4e1787c1901f51dfebf0f6\`
+**Example**: \`/set_api f4e1781dfebf0f6\`
 
 💁‍♀️ Hit 👉 **/help** To Get Help\\.
 
