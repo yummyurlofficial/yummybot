@@ -383,10 +383,9 @@ bot.onText(/\/footer(.*)/, (msg, match) => {
             chatId,                                                     
             `ᴛᴏ ᴀᴅᴅ ᴏʀ ᴜᴘᴅᴀᴛᴇ ʏᴏᴜʀ ꜱʜᴏʀᴛɴᴇʀ ᴡᴇʙꜱɪᴛᴇ ᴀᴘɪ.\n\n` +
             
-            `Ex: /api a11b67871d303d2e0f76ab0:\\nn` +
+            `Ex: /api a11b67871d303d2e0f76ab0:\n\n` +
             
-            `ɢᴇᴛ ᴀᴘɪ ꜰʀᴏᴍ Yummyurl.com 
-             ᴄᴜʀʀᴇɴᴛ yummyurl.com ᴀᴘɪ: None`
+            `ɢᴇᴛ ᴀᴘɪ ꜰʀᴏᴍ Yummyurl.com <br> ᴄᴜʀʀᴇɴᴛ yummyurl.com ᴀᴘɪ: None`
           );
         }
       } else if (apiText.toLowerCase() === "remove") {
