@@ -385,9 +385,7 @@ bot.onText(/\/footer(.*)/, (msg, match) => {
             
             `Ex: /api a11b67871d303d2e0f76ab0:\n` +
             
-            `ɢᴇᴛ ᴀᴘɪ ꜰʀᴏᴍ Yummyurl.com 
-            
-            ᴄᴜʀʀᴇɴᴛ yummyurl.com ᴀᴘɪ: None`
+            `ɢᴇᴛ ᴀᴘɪ ꜰʀᴏᴍ Yummyurl.com ᴄᴜʀʀᴇɴᴛ yummyurl.com ᴀᴘɪ: None`
           );
         }
       } else if (apiText.toLowerCase() === "remove") {
