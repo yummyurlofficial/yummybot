@@ -93,7 +93,7 @@ Hey My name is *YummyURL Link Converter Bot* and I'm a link converter and shorte
 • /username — For username\\.
 • /me — See your settings details\\.
 
-⚠️Note : IF /Header /Footer Status is Disabled Then Header Not Show No Matter It Set Or Not
+⚠️Note : IF Header Footer Status is Disabled Then Header Not Show No Matter It Set Or Not
 
 If you have any problem, click the button below to contact us\\.
   `;
