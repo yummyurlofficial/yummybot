@@ -383,9 +383,9 @@ bot.onText(/\/footer(.*)/, (msg, match) => {
             chatId,
             `ᴛᴏ ᴀᴅᴅ ᴏʀ ᴜᴘᴅᴀᴛᴇ ʏᴏᴜʀ ꜱʜᴏʀᴛɴᴇʀ ᴡᴇʙꜱɪᴛᴇ ᴀᴘɪ.\n\n` 
             
-            `Ex: /api a11b67871d303d2e0f76ab0:\n\n` 
+            `Ex: /api a11b67871d303d2e0f76ab0:` 
             
-            `ɢᴇᴛ ᴀᴘɪ ꜰʀᴏᴍ Yummyurl.com \n\n<br>
+            `ɢᴇᴛ ᴀᴘɪ ꜰʀᴏᴍ Yummyurl.com <br>
             
             ᴄᴜʀʀᴇɴᴛ yummyurl.com ᴀᴘɪ: None`
           );
