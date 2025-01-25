@@ -488,6 +488,10 @@ bot.on("message", async (msg) => {
       // If the message contains a photo, send the photo with the updated caption
       const photo = msg.photo[msg.photo.length - 1].file_id; // Get the highest resolution photo
       bot.sendPhoto(chatId, photo, { caption: updatedText });
+     } else if (msg.video) {
+      // If the message contains a video, send the video with the updated caption
+     const video = msg.video.file_id; // Get the video file ID
+     bot.sendVideo(chatId, video, { caption: updatedText });
     } else {
       // Otherwise, send a regular text message
       bot.sendMessage(chatId, updatedText);
